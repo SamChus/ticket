@@ -33,7 +33,7 @@ const Card = ({title, imageUrl}:Props) => {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-b from-[#FCFCFE] to-[#1A181B] w-full pt-4 relative">
+      <div className="bg-gradient-to-b from-[#FCFCFE] to-[#1A181B] pt-4 relative">
         <img
           loading="lazy"
           src={imageUrl}
